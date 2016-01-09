@@ -1,0 +1,11 @@
+name: ${pom.artifactId}
+version: ${pom.version}
+author: syu_chan_1005
+main: co.honobono.hnfilemanager.HNFileManager
+
+commands:
+   file:
+      description: This is Main Command.
+      usage: /<command> <Option>...
+      permission: hnupdate.file
+      permission-message: Unknown command. Type "/help" for help.
